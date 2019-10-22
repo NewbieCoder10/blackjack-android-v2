@@ -33,7 +33,7 @@ public interface DeckOfCardsService {
   default URL getImageUrl (Card card){
     try {
       String baseUrl = BuildConfig.BASE_URL;
-      String imagePattern = BuildConfig.STATIC_IMAGE_PATTERN
+      String imagePattern = BuildConfig.STATIC_IMAGE_PATTERN;
       String abbreviation = card.getAbbreviation();
       return new URL(String.format(imagePattern, baseUrl, abbreviation));
     } catch (MalformedURLException e) {
