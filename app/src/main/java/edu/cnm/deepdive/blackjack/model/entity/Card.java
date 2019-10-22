@@ -102,7 +102,7 @@ public class Card {
     @SerializedName("7") SEVEN,
     @SerializedName("8") EIGHT,
     @SerializedName("9") NINE,
-    @SerializedName("0") TEN,
+    @SerializedName("10") TEN,
     JACK,
     QUEEN,
     KING;
